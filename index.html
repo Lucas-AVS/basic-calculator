@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <header>Basic calculator</header>
+    <main>
+        <div class="display">
+            <label id="current-number"></label>
+        </div>
+        <div class="buttons">
+            <div class="numbers">
+                <button class="number" data-index-number="7">7</button>
+                <button class="number" data-index-number="8">8</button>
+                <button class="number" data-index-number="9">9</button>
+                <button class="number" data-index-number="4">4</button>
+                <button class="number" data-index-number="5">5</button>
+                <button class="number" data-index-number="6">6</button>
+                <button class="number" data-index-number="1">1</button>
+                <button class="number" data-index-number="2">2</button>
+                <button class="number" data-index-number="3">3</button>
+                <button class="number" data-index-number="0" id="zero">0</button>
+            </div>
+            <div class="operators">
+                <button class="utility" data-attribute="+" id="clear">C</button>
+                <button class="utility" data-attribute="x" id="clearEntry">CE</button>
+                <button class="operator" data-operator-type="+" id="add">+</button>
+                <button class="operator" data-operator-type="-" id="subtract">-</button>
+                <button class="operator" data-operator-type="x" id="multiply">x</button>
+                <button class="operator" data-operator-type="÷" id="divide">÷</button>
+                <button class="operate" id="equals">=</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>Copyright © 2022 Lucas-AVS</footer>
+</body>
+<script src="/script.js"></script>
+</html>
